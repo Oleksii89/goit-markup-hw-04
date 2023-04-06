@@ -8,6 +8,7 @@
   --primary-white-color: #ffffff;
   --secondary-accent-color: #4d5ae5;
   --background-color: #f4f4fd;
+  --background-color-hero: rgba(46, 47, 66, 0.7);
   --border-color: #e7e9fc;
 }
 h1,
@@ -234,7 +235,10 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-color: var(--secondary-text-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/bg.jpg);
+  background-size: cover;
+  background-color: var(--background-color-hero);
 }
 
 .hero-title {
