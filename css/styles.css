@@ -146,6 +146,9 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border: 1px solid transparent;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -190,15 +193,14 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
-/* .menu-link::after
- {
+.menu-link:hover::after {
   display: flex;
   width: 66px;
   height: 4px;
   border-radius: 4px;
   background-color: var(--accent-color);
   content: '';
-} */
+}
 
 .logo-header {
   margin-right: 76px;
@@ -435,6 +437,13 @@ body {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+}
+.our-jobs-wrapper:hover,
+.our-jobs-wrapper:focus {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 1px rgba(46, 47, 66, 0.16);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  cursor: pointer;
 }
 
 /*-------------------- /OUR JOBS--------------- */
