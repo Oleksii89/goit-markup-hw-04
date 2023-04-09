@@ -193,13 +193,14 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
-.menu-link:hover::after {
+.menu-link:active::after {
   display: flex;
   width: 66px;
   height: 4px;
   border-radius: 4px;
   background-color: var(--accent-color);
   content: '';
+  margin-top: 20px;
 }
 
 .logo-header {
