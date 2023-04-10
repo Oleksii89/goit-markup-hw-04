@@ -261,6 +261,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
+  height: 600px;
+  margin: auto;
 }
 
 .hero-title {
@@ -395,14 +397,12 @@ body {
   width: 168px;
   height: 88px;
   border-radius: 4px;
-  border: 1px solid #8e8f99;
-  color: var(--customer-icon-color);
+  border: 1px solid currentColor;
+  color: #8e8f99;
 }
 
 .customer-link:hover,
 .customer-link:focus {
-  border: 1px solid var(--accent-color);
-  box-shadow: none;
   color: var(--accent-color);
 }
 
@@ -439,6 +439,7 @@ body {
 
 .our-jobs-link {
   display: block;
+  color: inherit;
 }
 .our-jobs-link:hover,
 .our-jobs-link:focus {
@@ -464,6 +465,10 @@ body {
   padding-bottom: 100px;
 
   background-color: var(--secondary-text-color);
+}
+
+.logo-text {
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -493,21 +498,15 @@ body {
   color: var(--background-color);
 }
 
-.social-media-footer {
-  display: flex;
-  color: var(--primary-white-color);
-  flex-direction: column;
-}
 .social-media-title {
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-white-color);
 }
 .footer-content {
   display: flex;
-  gap: 120px;
-  align-items: baseline;
 }
 .social-list-footer {
   display: flex;
